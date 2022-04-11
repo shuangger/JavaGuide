@@ -828,7 +828,7 @@ Wed Nov 13 13:40:43 CST 2019::pool-1-thread-5
 **`ScheduledThreadPoolExecutor` 为了实现周期性的执行任务，对 `ThreadPoolExecutor`做了如下修改：**
 
 - 使用 **`DelayQueue`** 作为任务队列；
-- 获取任务的方不同
+- 获取任务的方法不同
 - 执行周期任务后，增加了额外的处理
 
 ### 6.3 ScheduledThreadPoolExecutor 执行周期任务的步骤
